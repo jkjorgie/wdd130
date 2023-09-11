@@ -30,6 +30,7 @@ main {
 }
 
 aside {
+    width:800px;
     margin:10px;
     border:1px;
     padding:10px;
