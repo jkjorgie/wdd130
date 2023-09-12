@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Dosis:wght@200&display=swap');
+
+:root {
+    --primary-color: #3F88C5;
+    --secondary-color: #FFBA08;
+    --accent1-color: #D00000;
+    --accent2-color: #A2AEBB;
+
+    --heading-font:'',sans-serif;
+    --paragraph-font: '',sans-serif;
+
+    --nav-background-color: #A2AEBB;
+    --nav-link-color: #FFBA08;
+    --nav-hover-link-color: #D00000;
+    --nav-hover-background-color: #D00000;
+}
+
+body {
+    font-family: var(--paragraph-font);
+    max-width: 960px;
+    padding: 20px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family:var(--heading-font);
+    color: var(--primary-color);
+}
+
+header {
+    padding: 30px;
+    background-color: var(--accent1-color);
+}
+
+p {
+    padding: 25px;
+}
+
+nav {
+    background-color: var(--nav-background-color);
+    font-size: 1.5rem;
+    display: flex;
+}
+
+nav a {
+    display: block;
+    color: var(--nav-link-color);
+    text-decoration: none;
+    padding: 1rem;
+}
+
+nav a:link, nav a:visited {
+    color: var(--nav-link-color)
+}
+
+nav a:hover {
+    color: var(--nav-hover-link-color);
+    background-color: var(--nav-hover-background-color);
+}
