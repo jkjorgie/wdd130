@@ -7,13 +7,13 @@
     --accent1-color: #D00000;
     --accent2-color: #A2AEBB;
 
-    --heading-font:'',sans-serif;
-    --paragraph-font: '',sans-serif;
+    --heading-font: 'Bebas Neue',sans-serif;
+    --paragraph-font: 'Dosis',sans-serif;
 
     --nav-background-color: #A2AEBB;
-    --nav-link-color: #FFBA08;
-    --nav-hover-link-color: #D00000;
-    --nav-hover-background-color: #D00000;
+    --nav-link-color: #D00000;
+    --nav-hover-link-color: #FFBA08;
+    --nav-hover-background-color: #3F88C5;
 }
 
 body {
@@ -29,11 +29,12 @@ h1, h2, h3, h4, h5, h6 {
 
 header {
     padding: 30px;
-    background-color: var(--accent1-color);
+    background-color: var(--secondary-color);
 }
 
 p {
     padding: 25px;
+    font-size: 1.1rem;
 }
 
 nav {
