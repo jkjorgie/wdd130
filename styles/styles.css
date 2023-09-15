@@ -25,6 +25,7 @@ main img {
     border: 1px solid steelblue;
     padding: 2px;
     box-shadow: 0 0 30px gray;
+    float: right;
 }
 
 p {
@@ -71,8 +72,4 @@ footer {
     padding: 1rem;
     background-color: #9BC1BC;
     color: black;
-}
-
-.profile-picture {
-    float: right;
 }
