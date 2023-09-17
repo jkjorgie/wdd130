@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Dosis:wght@200&display=swap');
+
+:root {
+    --primary-color: #3F88C5;
+    --secondary-color: #FFBA08;
+    --accent1-color: #D00000;
+    --accent2-color: #A2AEBB;
+
+    --heading-font: 'Bebas Neue',sans-serif;
+    --paragraph-font: 'Dosis',sans-serif;
+
+    --nav-background-color: #A2AEBB;
+    --nav-link-color: #D00000;
+    --nav-hover-link-color: #FFBA08;
+    --nav-hover-background-color: #3F88C5;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family:var(--heading-font);
+    color: var(--primary-color);
+}
+
+p {
+    padding: 25px;
+    font-size: 1.1rem;
+}
+
+body {
+    font-family: var(--paragraph-font);
+    max-width: 960px;
+    padding: 20px;
+}
+
+nav {
+    background-color: var(--nav-background-color);
+    font-size: 1.5rem;
+    display: flex;
+}
+
+nav a {
+    display: block;
+    color: var(--nav-link-color);
+    text-decoration: none;
+    padding: 1rem;
+}
+
+nav a:link, nav a:visited {
+    color: var(--nav-link-color)
+}
+
+nav a:hover {
+    color: var(--nav-hover-link-color);
+    background-color: var(--nav-hover-background-color);
+}
+
+header {
+    padding: 30px;
+    background-color: var(--secondary-color);
+}
+
+div {
+    position: relative;
+}
+
+.hero img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+/* .hero article {
+    background-color:rgba(0,0,0,0.4)
+} */
+
+.hero article {
+    position: absolute;
+    top: 220px;
+    right: 15px;
+    color: var(--primary-color);
+    max-width: 400px;
+    background-color:rgba(0,0,0,0.4)
+}
+
+.hero h1 {
+    position: absolute;
+    top: 35px;
+    right: 35px;
+    color: var(--secondary-color);
+}
+.hero .happy-client {
+    float: right;
+    width: 150px;
+    height: auto;
+    padding-top: 45px;
+    /* top: 400px; */
+    /* position: absolute; */
+}
+
+/*img {
+    float: right;
+    width: 150px;
+    height: auto;
+}*/
