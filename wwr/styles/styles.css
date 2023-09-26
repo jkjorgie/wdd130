@@ -36,6 +36,10 @@ nav {
     background-color: var(--nav-background-color);
     font-size: 1.5rem;
     display: flex;
+    grid-column: 2/4;
+    text-align: center;
+    align-items: center;
+    justify-content: space-evenly;
 }
 
 nav a {
@@ -43,6 +47,7 @@ nav a {
     color: var(--nav-link-color);
     text-decoration: none;
     padding: 1rem;
+    flex: 1 1 100%;
 }
 
 nav a:link, nav a:visited {
@@ -57,10 +62,73 @@ nav a:hover {
 header {
     padding: 30px;
     background-color: var(--secondary-color);
+    display: grid;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+header img {
+    grid-column: 1/2;
 }
 
 div {
     position: relative;
+}
+
+/* footer {
+    display: grid;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+footer p {
+    grid-column: 1/4;
+}
+
+footer img {
+    grid-column: 4/5;
+    max-width: 50px;
+    height: auto;
+    align-self: flex-end;
+} */
+
+/* .div-footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.div-footer-copyright {
+    justify-content: center;
+} */
+
+.div-footer {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+}
+
+.div-footer-copyright {
+    grid-column: 2/3;
+}
+
+.div-footer div {
+    align-self: flex-end;
+    justify-self: flex-end;
+}
+
+.div-footer-socials {
+    /* align-self: flex-end; */
+    grid-column: 3/4;
+    /* align-items: center;
+    justify-content: center; */
+}
+
+.div-footer-socials a img{
+    max-width: 50px;
+    height: auto;
+    padding-top: 25px;
+    padding-bottom: 25px;
 }
 
 .hero img {
@@ -95,6 +163,59 @@ div {
     padding-top: 45px;
     /* top: 400px; */
     /* position: absolute; */
+}
+
+.section-history {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.section-history h2 {
+    /* grid-column: 1/2; */
+    padding: 5px;
+}
+.section-history p {
+    /* grid-column: 2/3; */
+    padding: 0px;
+    margin: 0px;
+}
+
+.div-adventure {
+    display: flex;
+    /* align-items: center; */
+    /* justify-content: space-evenly; */
+}
+
+h2 {
+    text-align: center;
+}
+
+.div-adventure figure {
+    padding: .2em;
+    margin: 0px;
+    max-width: 20%;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.div-adventure figcaption {
+    align-self: center;
+    position: absolute;
+    bottom: 0;
+    padding-top: .2em;
+    /* display: flex; */
+}
+
+.div-adventure img {
+    /* min-width: 50px;
+    max-width: 100px; */
+    max-height: 80%;
+    max-width: 100%;
+    width: auto;
+    display: flex;
 }
 
 /*img {
