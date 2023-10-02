@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Dosis:wght@200&display=swap');
+
+:root {
+    --primary-color: #3F88C5;
+    --secondary-color: #baffc8;
+    --accent1-color: #D00000;
+    --accent2-color: #e8e8e8;
+
+    --heading-font: 'Bebas Neue',sans-serif;
+    --paragraph-font: 'Dosis',sans-serif;
+
+    /* --nav-background-color: #A2AEBB;
+    --nav-link-color: #D00000;
+    --nav-hover-link-color: #FFBA08;
+    --nav-hover-background-color: #3F88C5; */
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: var(--paragraph-font);
+    font-size: 1.2rem;
+    color: var(--accent1-color)
+}
+
+header, h1 {
+    font-family: var(--heading-font);
+    color: var(--primary-color);
+    text-align: center;
+}
+
+form {
+    width: 800px;
+    margin: 0 auto;
+    padding: 1rem;
+    border: 1px solid steelblue;
+    border-radius: 1rem;
+    background-color: var(--accent2-color);
+    display: grid;
+}
+
+fieldset {
+    display: grid;
+    grid-gap: .1rem;
+    border: 1px solid steelblue;
+    padding: .8rem;
+    border-radius: 1rem;
+}
+
+legend {
+    color: steelblue;
+    font-size: 1.8rem;
+    padding: .5rem;
+    font-family: var(--heading-font);
+    text-align: center;
+}
+
+label, input, button, select, textarea {
+    font-family: sans-serif;
+}
+
+label {
+    text-align: right;
+    padding-right: .5rem;
+}
+
+input, select, textarea {
+    padding: .2rem;
+    font-size: 1.2rem;
+}
+
+input[type="checkbox"] {
+    width: 1.5rem;
+    height: 1.5rem;
+    vertical-align: bottom;
+}
+
+button {
+    padding: .2rem;
+    margin-top: 1rem;
+    margin-right: 20rem;
+    margin-left: 20rem;
+    color: var(--primary-color);
+    font-size: 1.2rem;
+    background-color: var(--secondary-color);
+}
+
+button:hover {
+    color: var(--secondary-color);
+    background-color: var(--primary-color);
+}
+
+footer {
+    color: var(--primary-color);
+    font-size: 1rem;
+    text-align: center;
+}
+
+.form-item {
+    display: grid;
+    align-items: center;
+}
+
+.column1 {
+    grid-template-columns: 3fr 1fr;
+    margin: .5rem;
+}
+
+.column2 {
+    grid-template-columns: 1fr 2fr;
+    margin: .5rem;
+}
