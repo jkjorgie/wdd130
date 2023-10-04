@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <title>Jay Jorgensen | HTML Quiz</title>
+        <meta name="description" content="This page is for my WDD130 class. I am learning about HTML and CSS.">
+        <meta name="author" content="Jay Jorgensen">
+        <link rel="stylesheet" href="styles/quiz.css">
+    </head>
+    <body>
+        <header>
+            <h1>Basic HTML Quiz</h1>
+        </header>
+        <main>
+            <form>
+                <fieldset>
+                    <legend>Question 1</legend>
+                    <div class="form-item">
+                        <label for="q1">What does "CSS" stand for?</label>
+                        <input type="text" id="q1" name="q1">
+                    </div>
+                </fieldset>
+                <fieldset>
+                    <legend>Question 2</legend>
+                    <div class="form-item">
+                        <label for="q2">Why do you love HTML?</label>
+                        <textarea id="q2" name="q2" rows="4" placeholder="I love HTML because..."></textarea>
+                    </div>
+                </fieldset>
+                <fieldset>
+                    <legend>Question 3</legend>
+                    <div class="form-item">
+                        <label for="q3">Which is not an HTML element?</label>
+                        <select id="q3" name="q3">
+                            <option value="" selected disabled>Choose one ...</option>
+                            <option value="p">Paragraph</option>
+                            <option value="f">Flex Box</option>
+                            <option value="d">Div</option>
+                            <option value="m">Main</option>
+                        </select>
+                        </div>
+                </fieldset>
+                <fieldset>
+                    <legend>Question 4</legend>
+                    <label for="q4">What is a number of pixels that would be considered very large?</label>
+                    <input type="number" id="q4" name="q4" min="1" max="100000">
+                </fieldset>
+                <button type="submit">Submit Poll</button>
+            </form>
+        </main>
+        <footer>
+            <p>&copy;2023 | Jay Jorgensen | USA</p>
+        </footer>
+    </body>
+</html>
