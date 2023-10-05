@@ -232,6 +232,71 @@ h2 {
     padding: 10px;
 }
 
+.contact-info-parts {
+    display: grid;
+    grid-template-areas:
+        'map'
+        'map'
+        'map'
+        'addr'
+        'email'
+        'phone'
+}
+
+.contact-info-part-map {
+    grid-area: map;
+    margin: auto;
+    border: 1px solid var(--primary-color);
+}
+
+.contact-info-part-addr {
+    grid-area: addr;
+}
+
+.contact-info-part-email {
+    grid-area: email;
+}
+
+.contact-info-part-phone {
+    grid-area: phone;
+}
+
+.emp-grid {
+    display: grid;
+    grid-template-areas:
+        'emp1 emp2 emp3';
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.emp1 {
+    grid-area: emp1;
+}
+
+.emp1 figure img {
+    width: 200px;
+    height: auto;
+}
+
+.emp2 {
+    grid-area: emp2;
+}
+
+.emp2 figure img {
+    width: 200px;
+    height: auto;
+}
+
+.emp3 {
+    grid-area: emp3;
+}
+
+.emp3 figure img {
+    width: 200px;
+    height: auto;
+}
+
 .grid-item {
     color: var(--primary-color);
     border: 1px solid var(--primary-color);
