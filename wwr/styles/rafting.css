@@ -437,6 +437,10 @@ h2 {
     border: 1px solid var(--primary-color);
 }
 
+.contact-info-part-map iframe {
+    border:0;
+}
+
 /*img {
     float: right;
     width: 150px;
