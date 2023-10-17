@@ -398,8 +398,10 @@ h2 {
 }
 
 .form-submit button {
-    background-color: var(--nav-background-color);
-    color: var(--nav-link-color);
+    /* background-color: var(--nav-background-color); */
+    background-color: white;
+    /* color: var(--nav-link-color); */
+    color: var(--primary-color);
     font-size: 1.5rem;
     font-family: var(--paragraph-font);
     border-radius: 10px;
