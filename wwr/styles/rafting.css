@@ -474,7 +474,8 @@ h2 {
 }
 
 .cta-button a:hover {
-    color: var(--secondary-color);
+    color: var(--primary-color);
+    background-color: var(--secondary-color);
 }
 
 .cta-button a:visited {
