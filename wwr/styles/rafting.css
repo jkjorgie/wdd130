@@ -441,6 +441,218 @@ h2 {
     border:0;
 }
 
+.call-to-action {
+    /* margin: auto; */
+    text-align: center;
+    border: 1px solid var(--primary-color);
+    border-radius: 10px;
+    padding: 10px;
+    margin-top: .5rem;
+    align-items: center;
+    justify-content: center;
+    display: grid;
+    color: var(--primary-color);
+    /* padding-bottom: 20px; */
+}
+
+.call-to-action p {
+    font-size: 1.5rem;
+    padding: .5rem;
+    margin: .5rem;
+}
+
+.cta-button {
+    border: 1px solid var(--primary-color);
+    border-radius: 10px;
+    font-size: 2rem;
+    width: 25%;
+    align-self: center;
+    justify-self: center;
+    padding: .5rem;
+    color: var(--secondary-color);
+    background-color: var(--primary-color);
+}
+
+.cta-button a:hover {
+    color: var(--secondary-color);
+}
+
+.cta-button a:visited {
+    color: var(--secondary-color);
+    background-color: var(--primary-color);
+}
+
+.all-trips-table table {
+    /* justify-self: center; */
+    align-self: center;
+    border-collapse: collapse;
+}
+
+.all-trips-table tr {
+    border-bottom: 1px solid var(--primary-color);
+}
+
+.all-trips-table .no-row-border {
+    border-bottom: none;
+}
+
+.all-trips-table th {
+    padding: .8rem;
+    text-align: left;
+}
+
+.all-trips-table td {
+    padding: .8rem;
+}
+
+.feat-trip-grid {
+    display: grid;
+    grid-template-areas:
+        'feat-trips'
+        'all-trips';
+    gap: 10px;
+    /* padding: 10px; */
+    padding-top: .5rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.feat-trip-grid p {
+    text-align: left;
+}
+
+.all-trips-table {
+    /* padding: 10px; */
+    padding-top: .5rem;
+    grid-area: all-trips;
+    border: 1px solid var(--primary-color);
+    border-radius: 10px;
+    color: var(--primary-color);
+    /* width: 100%;
+    height: 100%; */
+}
+
+.all-trips-table h1 {
+    text-align: center;
+}
+
+.all-trips-table table {
+    margin: auto;
+}
+
+.all-trips-table th {
+    font-size: larger;
+}
+
+.feat-trips {
+    grid-area: feat-trips;
+}
+
+.feat-trips h1 {
+    text-align: center;
+}
+
+.feat-trips-grid {
+    display: grid;
+    /* grid-template-areas:
+        'trip1 trip2 trip3';*/
+    grid-template-areas:
+        'trip1-img trip1-descr trip1-descr'
+        'trip2-descr trip2-descr trip2-img'
+        'trip3-img trip3-descr trip3-descr';
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.trip1-img {
+    grid-area: trip1-img;
+    margin: 0;
+}
+
+.trip1-img figure img {
+    width: 350px;
+    height: auto;
+}
+
+.trip1-descr {
+    grid-area: trip1-descr;
+    margin: 0;
+}
+
+.trip1-descr p {
+    padding-right: 1.5rem;
+}
+
+.trip2-img {
+    grid-area: trip2-img;
+    margin: 0;
+}
+
+.trip2-img figure img {
+    width: 350px;
+    height: auto;
+}
+
+.trip2-descr {
+    grid-area: trip2-descr;
+    margin: 0;
+}
+
+.trip2-descr p {
+    padding-left: 1.5rem;
+}
+
+.trip3-img {
+    grid-area: trip3-img;
+    margin: 0;
+}
+
+.trip3-img figure img {
+    width: 350px;
+    height: auto;
+}
+
+.trip3-descr {
+    grid-area: trip3-descr;
+    margin: 0;
+}
+
+.trip3-descr p {
+    padding-right: 1.5rem;
+}
+
+.trip1 {
+    grid-area: trip1;
+    margin: 0;
+}
+
+.trip1 figure img {
+    width: 200px;
+    height: auto;
+}
+
+
+.trip2 {
+    grid-area: trip2;
+    margin: 0;
+}
+
+.trip2 figure img {
+    width: 200px;
+    height: auto;
+}
+
+.trip3 {
+    grid-area: trip3;
+    margin: 0;
+}
+
+.trip3 figure img {
+    width: 200px;
+    height: auto;
+}
+
 /*img {
     float: right;
     width: 150px;
